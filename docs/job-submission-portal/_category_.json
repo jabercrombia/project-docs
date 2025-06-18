@@ -1,8 +1,11 @@
 {
   "label": "Job Submission Portal",
-  "position": 2,
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
-    "description": "Job Submission Portal documentation"
+    "description": "Learn how to get started with Job Submission Portal project.",
+    "slug": "/job-submission-portal"
   }
 }
