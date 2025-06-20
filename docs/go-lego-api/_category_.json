@@ -1,0 +1,11 @@
+{
+  "label": "Lego API - Golang",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "LEGO App is a web application built with Next.js for the frontend and Go (Golang) for the backend API.",
+    "slug": "/lego-api-go"
+  }
+}

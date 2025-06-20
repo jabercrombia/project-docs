@@ -15,8 +15,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+                These projects are mostly centered around being a showcase of the work I can do and documentation so I can make changes after the fact.
+
       </>
     ),
   },
@@ -25,18 +25,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I will be focusing on how to provide indepth documentation that allows developers to follow along and either make changes are deploy their own projects.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by React & Python',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Majority of the documentation will center our 80% React and 20% Python.
       </>
     ),
   },

@@ -2,7 +2,7 @@
   "label": "Opensearch + Contentful",
   "position": 1,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "Learn how to get started with Job Submission Portal project.",
