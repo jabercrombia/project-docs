@@ -4,6 +4,7 @@
 - [Job Entries](#job-entries)
 - [Individual Job Entry](#get-job-entry-by-key)
 - [Categories](#categories)
+- [Search Job Entries](#search-job-entries)
 
 ---
 This is here to document all the API endpoints used in this project
@@ -103,3 +104,44 @@ Retrieve a list of all categories from the `categories` table, ordered by catego
     { "category_name": "Engineering" },
     { "category_name": "Design" }
   ]
+
+---
+
+## Search Job Entries
+
+**Endpoint:** `GET /api/job-entries/search?q=[query]`
+
+**Example:** `query='account'`
+
+### Description
+
+Searches job entries by matching the `q` parameter with job title, description, or category (case-insensitive).
+
+### Query Parameters
+
+| Parameter | Type   | Required | Description                                |
+|-----------|--------|----------|--------------------------------------------|
+| `q`       | string | No       | Search term used to filter job listings.   |
+
+### Behavior
+
+- If `q` is not provided, returns all job entries.
+- Filters jobs where the title, description, or category includes the query string.
+- Returns all matching jobs or an empty array if none found.
+
+### Response Example
+
+```json
+[
+  {
+    "id": 6,
+    "title": "Accounts Payable Specialist",
+    "description": "string",
+    "expiration": "2025-07-31T00:00:00",
+    "category": "finance",
+    "created_at": "2025-05-30T10:10:00+00:00",
+    "job_posting_key": "accounts-payable-specialist-6"
+  }
+]
+```
+
