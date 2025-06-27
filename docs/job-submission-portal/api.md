@@ -83,17 +83,17 @@ Fetch a single job entry from the `job_entries` table using the unique `job_post
 
 **EndPoint:** `GET /api/categories`
 
-## Description
+### Description
 
 Retrieve a list of all categories from the `categories` table, ordered by category name in descending order.
 
-## Behavior
+### Behavior
 
 - Fetches `category_name` from the `categories` table.
 - Orders results by `category_name` descending.
 - Returns HTTP 500 with an error message if the database query fails.
 
-## Response
+### Response
 
 - **200 OK**: JSON array of category objects:
 
